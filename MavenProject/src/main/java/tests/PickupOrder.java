@@ -20,6 +20,9 @@ public class PickupOrder {
 	  //Set timeout interval
 	  	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	  //
+	  	
+	  	
+	  	
 	  	driver.findElement(By.xpath("//button[@id='btn-confirm']//span[@class='ng-binding']")).click();
 	  	
 	  	
